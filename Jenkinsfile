@@ -31,5 +31,10 @@ pipeline {
                 echo 'Save the assemblies generated from the compilation' 
             }
         }
+        stage('exp') {
+            steps {
+                echo 'Save the assemblies generated from the compilation' 
+            }
+        }
     }
 }
